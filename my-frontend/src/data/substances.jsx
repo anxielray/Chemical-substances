@@ -1,0 +1,147 @@
+export const substances = [
+  {
+    id: 1,
+    name: "Water",
+    formula: "H₂O",
+    image: "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=962&t=l",
+    type: "compound",
+    molar_mass: 18.015,
+    state_at_room_temp: "liquid",
+    uses: ["drinking", "cooling", "solvent"],
+    hazards: [],
+    description: "A transparent, tasteless, odorless, and nearly colorless chemical substance."
+  },
+  {
+    id: 2,
+    name: "Carbon Dioxide",
+    formula: "CO₂",
+    image: "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=280&t=l",
+    type: "compound",
+    molar_mass: 44.01,
+    state_at_room_temp: "gas",
+    uses: ["carbonation", "refrigeration", "fire extinguishers"],
+    hazards: ["asphyxiation in high concentrations"],
+    description: "A colorless gas with a density about 53% higher than that of dry air."
+  },
+  {
+    id: 3,
+    name: "Sodium Chloride",
+    formula: "NaCl",
+    image: "https://www.shutterstock.com/image-vector/sodium-chloride-nacl-molecular-structure-260nw-2164858697.jpg",
+    type: "compound",
+    molar_mass: 58.44,
+    state_at_room_temp: "solid",
+    uses: ["seasoning", "preservation"],
+    hazards: [],
+    description: "Commonly known as salt, it is an ionic compound representing a 1:1 ratio of sodium and chloride ions."
+  },
+  {
+    id: 4,
+    name: "Ethanol",
+    formula: "C₂H₅OH",
+    image: "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS_BLOGS/9672035a-0380-42e1-ab26-e35c789d615e.png",
+    type: "compound",
+    molar_mass: 46.07,
+    state_at_room_temp: "liquid",
+    uses: ["disinfectant", "fuel", "beverage production"],
+    hazards: ["flammable"],
+    description: "A volatile, flammable, colorless liquid with a slight characteristic odor."
+  },
+  {
+    id: 5,
+    name: "Glucose",
+    formula: "C₆H₁₂O₆",
+    image: "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=5793&t=l",
+    type: "compound",
+    molar_mass: 180.16,
+    state_at_room_temp: "solid",
+    uses: ["energy source", "food industry"],
+    hazards: [],
+    description: "A simple sugar and an important energy source in living organisms."
+  },
+  {
+    id: 6,
+    name: "Oxygen",
+    formula: "O₂",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWc-9JtwHkLi_cLEjRxDxIotD3pjxrcSO2xQ&s",
+    type: "element",
+    molar_mass: 31.998,
+    state_at_room_temp: "gas",
+    uses: ["respiration", "welding"],
+    hazards: ["supports combustion"],
+    description: "A colorless, odorless gas essential for most life forms on Earth."
+  },
+  {
+    id: 7,
+    name: "Nitrogen",
+    formula: "N₂",
+    image: "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=947&t=l",
+    type: "element",
+    molar_mass: 28.014,
+    state_at_room_temp: "gas",
+    uses: ["inert atmosphere", "fertilizers"],
+    hazards: ["asphyxiation in high concentrations"],
+    description: "A colorless, odorless gas that makes up about 78% of Earth's atmosphere."
+  },
+  {
+    id: 8,
+    name: "Hydrochloric Acid",
+    formula: "HCl",
+    image: "https://enfo.hu/sites/default/files/HCl.jpg",
+    type: "compound",
+    molar_mass: 36.46,
+    state_at_room_temp: "liquid",
+    uses: ["industry", "laboratory", "digestion"],
+    hazards: ["corrosive"],
+    description: "A strong, corrosive acid commonly used in industry and the human stomach."
+  },
+  {
+    id: 9,
+    name: "Calcium Carbonate",
+    formula: "CaCO₃",
+    image: "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=10112&t=l",
+    type: "compound",
+    molar_mass: 100.09,
+    state_at_room_temp: "solid",
+    uses: ["construction", "antacid", "agriculture"],
+    hazards: [],
+    description: "A common substance found in rocks, shells, and pearls."
+  },
+  {
+    id: 10,
+    name: "Sulfuric Acid",
+    formula: "H₂SO₄",
+    image: "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=1118&t=l",
+    type: "compound",
+    molar_mass: 98.079,
+    state_at_room_temp: "liquid",
+    uses: ["chemical manufacturing", "batteries"],
+    hazards: ["highly corrosive"],
+    description: "A highly corrosive strong acid widely used in chemical manufacturing."
+  },
+  {
+    id: 21,
+    name: "Acetic Acid",
+    formula: "CH3COOH",
+    image: "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=176&t=l",
+    type: "organic acid",
+    molar_mass: 60.05,
+    state_at_room_temp: "liquid",
+    uses: ["vinegar production", "chemical reagent", "food additive"],
+    hazards: ["corrosive", "irritant"],
+    description: "A colorless liquid with a pungent smell, commonly used in vinegar and as an industrial chemical."
+  },
+  {
+    id: 22,
+    name: "Sodium Hydroxide",
+    formula: "NaOH",
+    image: "https://ozcanium.com/cdn/shop/files/Image_Editor_2.png?v=1729388725",
+    type: "strong base",
+    molar_mass: 40.00,
+    state_at_room_temp: "solid",
+    uses: ["drain cleaner", "soap making", "chemical manufacturing"],
+    hazards: ["caustic", "highly corrosive"],
+    description: "A white solid commonly known as caustic soda, widely used in cleaning, manufacturing, and chemical synthesis."
+  }
+
+];
