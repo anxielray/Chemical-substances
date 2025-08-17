@@ -110,6 +110,7 @@
     "name": "Sodium Hydroxide",
     "formula": "NaOH",
     "type": "compound",
+    "image":"https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=14798&t=l",
     "molar_mass": 40.00,
     "state_at_room_temp": "solid",
     "uses": ["drain cleaner", "soap making", "chemical synthesis"],
@@ -120,6 +121,7 @@
     "id": 11,
     "name": "Ammonia",
     "formula": "NH3",
+    "image": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=222&t=l",
     "type": "compound",
     "molar_mass": 17.031,
     "state_at_room_temp": "gas",
@@ -131,18 +133,29 @@
     "id": 12,
     "name": "Benzene",
     "formula": "C6H6",
-    "type": "compound",
+    "type": "aromatic hydrocarbon",
+    "image": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=241&t=l",
     "molar_mass": 78.11,
     "state_at_room_temp": "liquid",
-    "uses": ["solvent", "chemical precursor", "fuel additive"],
-    "hazards": ["carcinogenic", "flammable"],
-    "description": "A colorless liquid hydrocarbon with a sweet odor, used in the production of various chemicals."
+    "uses": [
+      "industrial solvent",
+      "precursor to plastics",
+      "precursor to synthetic fibers",
+      "precursor to resins, rubber, lubricants, dyes, detergents, drugs, pesticides"
+    ],
+    "hazards": [
+      "highly flammable",
+      "toxic",
+      "carcinogenic upon long-term exposure"
+    ],
+    "description": "Benzene is an aromatic hydrocarbon consisting of six carbon atoms arranged in a ring with alternating double bonds. It is a colorless, sweet-smelling, highly flammable liquid widely used as an industrial solvent and as a precursor in the production of numerous chemicals and materials."
   },
   {
     "id": 13,
     "name": "Nitric Acid",
     "formula": "HNO3",
     "type": "compound",
+    "image": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=944&t=l",
     "molar_mass": 63.016,
     "state_at_room_temp": "liquid",
     "uses": ["paint remover", "chemical reagent", "fertilizer"],
@@ -154,6 +167,7 @@
     "name": "Potassium Chloride",
     "formula": "KCl",
     "type": "compound",
+    "imae":"https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=4873&t=l",
     "molar_mass": 74.55,
     "state_at_room_temp": "solid",
     "uses": ["salt substitute", "fertilizer", "medical applications"],
@@ -177,6 +191,7 @@
     "name": "Calcium Chloride",
     "formula": "CaCl2",
     "type": "compound",
+    "image": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=5284359&t=l",
     "molar_mass": 110.98,
     "state_at_room_temp": "solid",
     "uses": ["de-icing agent", "drying agent", "food preservation"],
@@ -199,6 +214,7 @@
     "id": 18,
     "name": "Magnesium Sulfate",
     "formula": "MgSO4",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnB8v0YxWPIB7HVPTb0YOFHyFV5YztsNgkqw&s",
     "type": "compound",
     "molar_mass": 120.37,
     "state_at_room_temp": "solid",
@@ -210,6 +226,7 @@
     "id": 19,
     "name": "Potassium Nitrate",
     "formula": "KNO3",
+    "image": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=71309216&t=l",
     "type": "compound",
     "molar_mass": 101.10,
     "state_at_room_temp": "solid",
@@ -221,6 +238,7 @@
   { "id": 20,
     "name": "Zinc Oxide",
     "formula": "ZnO",
+    "image": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=14806&t=l",
     "type": "compound",
     "molar_mass": 81.38,
     "state_at_room_temp": "solid",
@@ -232,6 +250,7 @@
   { "id": 21,
     "name": "Copper Sulfate",
     "formula": "CuSO4",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrecvktaW0Vtq7C8Ba7ji_jD1cFIX1t5Mbrg&s",
     "type": "compound",
     "molar_mass": 159.61,
     "state_at_room_temp": "solid",
@@ -243,6 +262,7 @@
   { "id": 22,
     "name": "Iron(III) Oxide",
     "formula": "Fe2O3",
+    "image": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=16211978&t=l",
     "type": "compound",
     "molar_mass": 159.69,
     "state_at_room_temp": "solid",
@@ -255,6 +275,7 @@
     "name": "Lead(II) Nitrate",
     "formula": "Pb(NO3)2",
     "type": "compound",
+    "image": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=24924&t=l",
     "molar_mass": 331.2,
     "state_at_room_temp": "solid",
     "uses": ["explosives", "glass production", "chemical synthesis"],
@@ -265,6 +286,7 @@
   { "id": 24,
     "name": "Sodium Acetate",
     "formula": "CH3COONa",
+    "image": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=517045&t=l",
     "type": "compound",
     "molar_mass": 82.03,
     "state_at_room_temp": "solid",
@@ -276,6 +298,7 @@
   { "id": 25,
     "name": "Sodium Phosphate",
     "formula": "Na3PO4",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV7MHgIcjSOUgAa_-aSGYBoMvdljkK8aMh-g&s",
     "type": "compound",
     "molar_mass": 163.94,
     "state_at_room_temp": "solid",
@@ -288,6 +311,7 @@
     "name": "Calcium Sulfate",
     "formula": "CaSO4",
     "type": "compound",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuCiluad64KnN0lgHG1y6nHrZjrZbp71ogqg&s",
     "molar_mass": 136.14,
     "state_at_room_temp": "solid",
     "uses": ["drywall", "plaster", "cement"],
@@ -299,6 +323,7 @@
     "name": "Aluminum Sulfate",
     "formula": "Al2(SO4)3",
     "type": "compound",
+    "image":"https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=24850&t=l",
     "molar_mass": 342.15,
     "state_at_room_temp": "solid",
     "uses": ["water purification", "paper manufacturing", "dyeing"],
@@ -309,6 +334,7 @@
   { "id": 28,
     "name": "Silicon Dioxide",
     "formula": "SiO2",
+    "image": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=24261&t=l",
     "type": "compound",
     "molar_mass": 60.08,
     "state_at_room_temp": "solid",
@@ -321,6 +347,7 @@
     "name": "Sodium Sulfate",
     "formula": "Na2SO4",
     "type": "compound",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2GBC4D8IzjYSb9q0gRJPe9ZNW62KAihi_wQ&s",
     "molar_mass": 142.04,
     "state_at_room_temp": "solid",
     "uses": ["detergent", "glass production", "paper manufacturing"],
@@ -414,14 +441,21 @@
   {
     "id": 37,
     "name": "Taurine",
-    "formula": "C2H7NO3S",
+    "formula": "C₂H₇NO₃S",
     "image": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=1123&t=l",
-    "type": "compound",
-    "molar_mass": 125.15,
-    "state_at_room_temp": "solid",
-    "uses": ["energy drinks", "dietary supplement", "neuroprotective agent"],
-    "hazards": ["high doses may cause gastrointestinal discomfort"],
-    "description": "An organic compound commonly added to energy drinks and dietary supplements, acting as a neurotransmitter and antioxidant."
+    "type": "amino sulfonic acid",
+    "molar_mass": 125.14,
+    "state_at_room_temp": "solid (colorless or white)",
+    "uses": [
+      "dietary supplement (often in energy drinks)",
+      "ingredient in pet food",
+      "bioactive compound in nutritional formulations"
+    ],
+    "hazards": [
+      "may cause skin and eye irritation",
+      "hazardous if inhaled at high concentrations"
+    ],
+    "description": "Taurine (2-aminoethanesulfonic acid) is a naturally occurring organic compound, widely present in mammalian tissues. Though often called an amino acid, it is not incorporated into proteins. It’s commonly used in supplements and energy drinks, and added nutritionally in pet foods to meet dietary needs for animals like cats. Taurine plays roles in bile salt formation, cell volume regulation, and acts as an antioxidant."
   },
   {
     "id": 38,
@@ -446,6 +480,123 @@
     "uses": ["dietary supplement", "skincare products", "pharmaceuticals"],
     "hazards": ["high doses may cause nausea or liver toxicity"],
     "description": "Nicotinamide is a form of vitamin B3 used to prevent and treat pellagra, support skin health, and as a supplement in food and pharmaceuticals."
+  },
+  {
+    "id": 40,
+    "name": "Niacin(Nicotinic Acid)",
+    "formula": "C6H5NO2",
+    "image": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=46782473&t=l",
+    "type": "vitamin (B3)",
+    "molar_mass": 123.11,
+    "state_at_room_temp": "solid",
+    "uses": [
+      "dietary supplement",
+      "cholesterol management",
+      "fortification of foods"
+    ],
+    "hazards": [
+      "high doses may cause flushing, liver toxicity, or insulin resistance"
+    ],
+    "description": "Niacin, also known as vitamin B3 or nicotinic acid, is an essential nutrient involved in metabolism and energy production. It is used in supplements, food fortification, and to help manage cholesterol levels."
+  },
+  {
+    "id": 41,
+    "name": "Pyridoxine",
+    "formula": "C8H11NO3",
+    "image": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=1054&t=l",
+    "type": "vitamin (B6)",
+    "molar_mass": 169.18,
+    "state_at_room_temp": "solid",
+    "uses": [
+      "treatment of vitamin B6 deficiency",
+      "supports metabolism of amino acids, glucose, and lipids",
+      "used in treatment of certain types of anemia and neurological disorders"
+    ],
+    "hazards": [
+      "high doses may cause sensory neuropathy",
+      "mild side effects include nausea and photosensitivity"
+    ],
+    "description": "Pyridoxine is one of the forms of vitamin B6, essential for protein and neurotransmitter metabolism. It is widely used in dietary supplements and plays a critical role in enzymatic reactions within the body."
+  },
+  {
+    "id": 42,
+    "name": "Cobalamin",
+    "formula": "C63H88CoN14O14P",
+    "image": "https://www.chm.bris.ac.uk/motm/vitaminb12/b12.gif",
+    "type": "vitamin (B12)",
+    "molar_mass": 1355.37,
+    "state_at_room_temp": "solid (crystalline)",
+    "uses": [
+      "essential for red blood cell formation",
+      "supports neurological function",
+      "used in treatment of pernicious anemia",
+      "commonly included in multivitamin supplements"
+    ],
+    "hazards": [
+      "generally considered safe",
+      "rare allergic reactions may occur",
+      "very high doses might cause acne-like symptoms"
+    ],
+    "description": "Vitamin B12 (Cobalamin) is a water-soluble vitamin containing cobalt. It is crucial for DNA synthesis, fatty acid metabolism, and energy production. Deficiency can cause anemia, fatigue, and neurological problems. It is mainly obtained from animal-based foods or supplements."
+  },
+  {
+    "id": 43,
+    "name": "Sodium Benzoate",
+    "formula": "C7H5NaO2",
+    "image": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=517055&t=l",
+    "type": "compound (preservative)",
+    "molar_mass": 144.105,
+    "state_at_room_temp": "solid",
+    "uses": [
+      "food preservative (in acidic foods like dressings, soft drinks, jams, fruit juices, pickles)",
+      "used in pharmaceuticals",
+      "used in cosmetics",
+      "pyrotechnic whistle mix"
+    ],
+    "hazards": [
+      "generally recognized as safe (GRAS)",
+      "can form benzene with ascorbic acid under heat/light",
+      "causes serious eye irritation (H319)"
+    ],
+    "description": "Sodium benzoate is the sodium salt of benzoic acid, commonly used as a food preservative (E-number E211) in acidic products. It is also applied in pharmaceuticals and cosmetics, and used in pyrotechnics as a fuel component.",
+    "properties": {
+      "appearance": "white crystalline powder",
+      "odor": "odorless",
+      "density": 1.497,
+      "melting_point_c": 410,
+      "solubility_in_water": "62.65 g/100 mL at 0 °C, up to 74.2 g/100 mL at 100 °C"
+    }
+  },
+  {
+    "id": 44,
+    "name": "Caffeine(1,3,7-trimethylxanthine)",
+    "formula": "C8H10N4O2",
+    "image": "https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=2519&t=l",
+    "type": "alkaloid (stimulant)",
+    "molar_mass": 194.19,
+    "state_at_room_temp": "solid (crystalline)",
+    "uses": [
+      "wakefulness-promoting agent",
+      "cognitive enhancer",
+      "physical performance stimulant",
+      "added to energy drinks, soft drinks, medications"
+    ],
+    "hazards": [
+      "overstimulation (caffeinism)",
+      "anxiety, insomnia at high doses",
+      "possible dependency or withdrawal"
+    ],
+    "description": "Caffeine is the world's most widely consumed psychoactive substance, a methylxanthine alkaloid and central nervous system stimulant. It acts by blocking adenosine receptors, increasing alertness and concentration.",
+    "properties": {
+      "appearance": "odorless white crystals or powder",
+      "density": 1.23,
+      "melting_point_c": "235–238",
+      "boiling_point_c": 178,
+      "solubility_in_water": "2.17 g/100 mL at 25 °C; more in hot water",
+      "pKa": "-0.13 to 1.22"
+    },
+    "legality": "Generally unscheduled globally",
+    "safety_notes": "Moderate intake (~400 mg/day) is safe for most adults; higher doses may cause jitteriness, increased heart rate, and other adverse effects."
   }
 
 ]
