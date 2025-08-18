@@ -1,14 +1,14 @@
 # 🧪 Chemistry Substances Explorer
 
-This project is a **React-based web application** for exploring chemical substances and their properties.  
-It allows users to browse through a list of chemical compounds, view detailed information, and learn about their uses, hazards, and physical characteristics.
+This project is a **React-based web application** for exploring chemical substances and their properties in foods.  
+It enables a user to scrutinize the substances that are found in their foods. This could help with diet-management individuals to avoid or access some nutrients.
 
 ---
 
 ## 🚀 Features
 
 - **Substance Listing**  
-  Displays a list of chemical substances with their **name, formula, and category**.
+  Displays a list of chemical substances with their **name, formula, and category**. The application also provides more details about the food substance.
 
 - **Detail View**  
   Clicking on a substance redirects the user to `/substances/:id` where a detailed view is shown with:
@@ -38,57 +38,6 @@ It allows users to browse through a list of chemical compounds, view detailed in
 
 ---
 
-## 📂 File Structure
-
-```sh
-.
-├── api
-│   ├── go.mod
-│   ├── go.sum
-│   ├── main.go
-│   └── substances.json
-├── backend
-│   ├── go.mod
-│   ├── go.sum
-│   └── main.go
-├── my-frontend
-│   ├── eslint.config.js
-│   ├── package.json
-│   ├── package-lock.json
-│   ├── public
-│   │   ├── images
-│   │   │   └── chemistry-is-fun-funny-phrase-with-periodic-table-chemical-elements_585425-9.png
-│   │   └── vite.svg
-│   ├── README.md
-│   ├── src
-│   │   ├── App.css
-│   │   ├── App.jsx
-│   │   ├── components
-│   │   │   ├── FilterPanel.jsx
-│   │   │   ├── Footer.jsx
-│   │   │   ├── ModalDetail.jsx
-│   │   │   ├── Navbar.jsx
-│   │   │   ├── RatingStars.jsx
-│   │   │   ├── SearchBar.jsx
-│   │   │   └── SubstanceCard.jsx
-│   │   ├── data
-│   │   │   └── substances.jsx
-│   │   ├── index.css
-│   │   ├── main.jsx
-│   │   └── pages
-│   │       ├── About.jsx
-│   │       ├── Contact.jsx
-│   │       ├── Home.jsx
-│   │       ├── SubstanceDetail.jsx
-│   │       └── Substances.jsx
-│   └── vite.config.js
-├── .gitignore
-├── Makefile
-└── README.md
-```
-
----
-
 ## 🧾 Example Substance Data
 
 ```js
@@ -105,81 +54,8 @@ export const substances = [
     description: "Water is essential for life and is the most common solvent.",
     image: "/images/water.png",
   },
-  {
-    id: 2,
-    name: "Carbon Dioxide",
-    formula: "CO₂",
-    type: "Compound",
-    molar_mass: 44.01,
-    state_at_room_temp: "Gas",
-    uses: ["Carbonation in drinks", "Fire extinguishers"],
-    hazards: ["Asphyxiation at high concentrations"],
-    description:
-      "CO₂ is a greenhouse gas and plays a major role in Earth's climate.",
-    image: "/images/co2.png",
-  },
+  ...
 ];
-```
-
-## 📜 Component: `SubstanceDetail.jsx`
-
-```jsx
-import "../index.css";
-
-export default function SubstanceDetail({ substance }) {
-  if (!substance) return <p className="not-found">❌ Substance not found.</p>;
-
-  return (
-    <div className="detail-container">
-      <div className="detail-card">
-        {/* Image */}
-        {substance.image && (
-          <img
-            src={substance.image}
-            alt={substance.name}
-            className="detail-image"
-          />
-        )}
-
-        {/* Header */}
-        <h1 className="detail-title">{substance.name}</h1>
-        <p className="detail-formula">
-          <strong>Formula:</strong> {substance.formula}
-        </p>
-
-        {/* Details */}
-        <p>
-          <strong>Type:</strong> {substance.type || "Uncategorized"}
-        </p>
-        <p>
-          <strong>Molar Mass:</strong>{" "}
-          {substance.molar_mass ? `${substance.molar_mass} g/mol` : "N/A"}
-        </p>
-        <p>
-          <strong>State at Room Temp:</strong>{" "}
-          {substance.state_at_room_temp || "Unknown"}
-        </p>
-
-        {/* Uses */}
-        {substance.uses && substance.uses.length > 0 && (
-          <p>
-            <strong>Uses:</strong> {substance.uses.join(", ")}
-          </p>
-        )}
-
-        {/* Hazards */}
-        {substance.hazards && substance.hazards.length > 0 && (
-          <p>
-            <strong>Hazards:</strong> {substance.hazards.join(", ")}
-          </p>
-        )}
-
-        {/* Description */}
-        <p className="detail-description">{substance.description}</p>
-      </div>
-    </div>
-  );
-}
 ```
 
 ## 🔗 Navigation (Clicking a Substance)
