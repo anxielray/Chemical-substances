@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "name": "Apple",
+        "type": "",
+        "scientific_name": "Malus domestica",
+        "group":"vitamins",
+        "average_weight": "~200g",
+        "varieties": ["Gala", "Fuji", "Honeycrisp", "Granny Smith", "Red Delicious", "Golden Delicious", "Braeburn", "Cripps Pink (also known as Pink Lady)", "Ambrosia", "Cameo", "Autumn Glory"],
+        "about": ""
+    }
+]
